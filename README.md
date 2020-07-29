@@ -9,3 +9,5 @@
 [과제](https://www.notion.so/peacemain/3d65723d001c44f481d3a61a78f5cf12)
 
 ## 웹 스터디
+
+[1주차] (https://github.com/peacemain-club/web-lecture/blob/master/week1/README.md)
