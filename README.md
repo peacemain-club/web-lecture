@@ -10,4 +10,6 @@
 
 ## 웹 스터디
 
-[1주차](https://github.com/peacemain-club/web-lecture/blob/master/week1/README.md)
+[Class 1](https://github.com/peacemain-club/web-lecture/blob/master/class1/README.md)
+
+[Class 2](https://github.com/peacemain-club/web-lecture/blob/master/class2/README.md)
