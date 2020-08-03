@@ -2,6 +2,11 @@
 
 HTML, CSS 기본
 
+## 참고자료
+[W3School](https://www.w3schools.com/html/default.asp)
+
+[HTML 태그 참고, MDN](https://developer.mozilla.org/ko/docs/Web/HTML/Element)
+
 ## DOM
 
 Document Object Model. 웹페이지에 대한 인터페이스. HTML, XML 등의 웹 프로그래밍의 결과물이 빌드되어 만들어지는 것.
