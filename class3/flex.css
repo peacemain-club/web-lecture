@@ -1,0 +1,96 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.instruction-wrapper {
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.instructions {
+  font-weight: 100;
+  line-height: 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ddd;
+  width: 600px;
+  height: 500px;
+  border: 2px solid black
+}
+
+.wrapper-1 {
+  display: flex;
+  flex: 1;
+}
+
+.box-1 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-2 {
+  display: flex;
+  flex: 2;
+  background-color: blue;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.wrapper-2 {
+  display: flex;
+  flex: 1;
+  background-color: green;
+}
+
+.box-3 {
+  display: flex;
+  flex: 1;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.wrapper-3 {
+  display: flex;
+  flex: 2;
+}
+
+.box-4 {
+  display: flex;
+  flex: 1;
+  background-color: white;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.box-5 {
+  display: flex;
+  flex: 2;
+  background-color: skyblue;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-6 {
+  display: flex;
+  flex: 3;
+  background-color: orange;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.element {
+  font-size: 25px;
+}
