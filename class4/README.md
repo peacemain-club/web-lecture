@@ -1,6 +1,6 @@
-# Class 3
+# Class 4
 
-Javascript 기본
+Javascript
 
 ## Javascript
 
