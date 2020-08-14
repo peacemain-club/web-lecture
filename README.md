@@ -17,3 +17,5 @@
 [Class 3](https://github.com/peacemain-club/web-lecture/blob/master/class3/README.md)
 
 [Class 4](https://github.com/peacemain-club/web-lecture/blob/master/class4/README.md)
+
+[Class 5](https://github.com/peacemain-club/web-lecture/blob/master/class5/README.md)
