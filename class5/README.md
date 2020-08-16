@@ -16,10 +16,12 @@ Javascript 기본 문제 해결하기
 
 ```
 
-const login = ('email@proto.com', 'password') => {
+const login = (email, password) => {
   // code
   return result;
 }
+
+login('email@proto.com', 'password');
 
 ```
 
