@@ -12,6 +12,19 @@ Javascript 기본 문제 해결하기
 
 유저가 이메일과 비밀번호를 입력받았을 때, 계정이 존재할 경우와 없을 경우를 구분하여 다음과 같은 결과값을 반환하는 함수를 작성하라
 
+* 예시 함수
+
+```
+
+const login = ('email@proto.com', 'password') => {
+  // code
+  return result;
+}
+
+```
+
+* 결과값
+
 ```
 
 {
