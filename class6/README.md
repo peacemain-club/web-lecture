@@ -87,6 +87,25 @@ delay(() => console.log('done'))
 
 ```
 
+Callback 사용해서 1st 출력 후 3초 뒤 2nd, 3rd 순으로 출력하게 만들어보기
+
+```js
+
+function delay(callback) {
+	setTimeout(() => {
+		console.log('2nd');
+		callback();
+	}, 3000);
+}
+
+console.log('1st');
+
+delay(() => {
+	console.log('3rd');
+})
+
+```
+
 ### Callback Hell
 
 콜백이 너무 많은 단계로 들어가는 경우.
@@ -95,19 +114,20 @@ delay(() => console.log('done'))
 
 ```js
 
-function getData(from, key) {
-	return get(from, key);
+function getData(from, key, callback) {
+	const data = get(from, key);
+	callback(data);
 };
 
-getData('aa', (result) => {
-	getData('bb', (result) => {
-		getData('cc', (result) => {
-			getData('dd', (result) => {
-				getData('ee', 'key');
-			}
-		}
-	}
-})
+getData('A', 'key', (result) => {
+	getData('B', result, (result) => {
+		getData('C', result, (result) => {
+			getData('D', result, (result) => {
+				getData('E', result, (result) => {});
+			});
+		});
+	});
+});
 
 ```
 
@@ -151,21 +171,24 @@ delay().then(() => {
 ```js
 
 function getData(from, key) {
-	return get(from, key);
+	return new Promise((resolve, reject) => {
+		const data = get(from, key);
+		resolve(data);
+	})
 };
 
-getData('ee', 'key')
+getData('A', 'key')
 	.then((result) => {
-		getData('dd', result);
+		getData('B', result);
 	}
 	.then((result) => {
-		getData('cc', result);
+		getData('C', result);
 	}
 	.then((result) => {
-		getData('bb', result);
+		getData('D', result);
 	}
 	.then((result) => {
-		getData('aa', result);
+		getData('E', result);
   }
 
 ```
