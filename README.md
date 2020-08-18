@@ -12,10 +12,29 @@
 
 [Class 1](https://github.com/peacemain-club/web-lecture/blob/master/class1/README.md)
 
+* 웹 개발환경 세팅 
+* 도구사용법
+
 [Class 2](https://github.com/peacemain-club/web-lecture/blob/master/class2/README.md)
+
+* HTML 기본
+* CSS 기본
 
 [Class 3](https://github.com/peacemain-club/web-lecture/blob/master/class3/README.md)
 
+* CSS Flexible Box
+* CSS Grid
+
 [Class 4](https://github.com/peacemain-club/web-lecture/blob/master/class4/README.md)
 
+* Javascript
+
 [Class 5](https://github.com/peacemain-club/web-lecture/blob/master/class5/README.md)
+
+* Javascript 문제
+
+[Class 6](https://github.com/peacemain-club/web-lecture/blob/master/class6/README.md)
+
+* 자바스크립트의 표준
+* Babel, Webpack
+* 비동기식 프로그래밍
