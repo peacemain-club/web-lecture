@@ -1,0 +1,13 @@
+{
+  "name": "class8",
+  "version": "1.0.0",
+  "description": "간단한 웹서버",
+  "scripts": {
+    "start": "node main"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

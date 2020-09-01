@@ -1,2 +1,5 @@
 # MacOS
 .DS_Store
+
+# Node JS
+node_modules/
