@@ -38,3 +38,15 @@
 * 자바스크립트의 표준
 * Babel, Webpack
 * 비동기식 프로그래밍
+
+[Class 7](https://github.com/peacemain-club/web-lecture/blob/master/class7/README.md)
+
+* Window 객체
+* Document 객체
+
+[Class 8](https://github.com/peacemain-club/web-lecture/blob/master/class8/README.md)
+
+* Node JS
+* Express
+* RESTful API
+* HTTP 상태코드
