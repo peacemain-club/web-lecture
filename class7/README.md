@@ -1,4 +1,4 @@
-# Class 6
+# Class 7
 
 Vanlla JS
 
