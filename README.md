@@ -50,3 +50,23 @@
 * Express
 * RESTful API
 * HTTP 상태코드
+
+Class 9
+
+* React JS
+* JSX
+* Create-React-App
+* 프로젝트 세팅
+* 클래스 컴포넌트 vs 함수형 컴포넌트
+* Linting
+* Sass
+ 
+##### TODOList 기술스택
+
+* React JS
+* Sass
+* ESLint
+* React-router-dom
+* Redux
+* Redux thunk
+* Firebase
