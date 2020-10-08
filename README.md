@@ -57,3 +57,13 @@
 * JSX
 * Component
 * State와 Props
+ 
+##### TODOList 기술스택
+
+* React JS
+* Sass
+* ESLint
+* React-router-dom
+* Redux
+* Redux thunk
+* Firebase
