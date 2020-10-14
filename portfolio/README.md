@@ -29,7 +29,7 @@ React를 배웠으니 React를 이용해서 Web을 개발.
 
   package.json 파일에 아래 lines 추가
 
-  ```json
+  ```
     {
       // ...
       "scripts": {
@@ -52,20 +52,22 @@ React를 배웠으니 React를 이용해서 Web을 개발.
 1. 웹 포트폴리오 기획 및 디자인
 2. 포트폴리오 웹사이트를 Create React App으로 제작
 3. 배포
-  ```
-    $ npm run deploy
-  ```
-  배포를 하면 gh-pages 브랜치가 생성. gh-pages 브랜치에 들어가는 파일들은 CRA에서 최적화하고 난독화해서 빌드한 파일들
+    ```
+      $ npm run deploy
+    ```
+    배포를 하면 gh-pages 브랜치가 생성. gh-pages 브랜치에 들어가는 파일들은 CRA에서 최적화하고 난독화해서 빌드한 파일들
 
 4. Github 설정
 
   * 자신의 <username>.github.io 레포지토리 접속
 
   * Settings 클릭
-
+    ![portfolio-1](https://firebasestorage.googleapis.com/v0/b/wingtree-cloud.appspot.com/o/images%2Fportfolio_1.jpg?alt=media&token=72fa4e35-508d-40cc-ab06-d734b68120a5)
+  
   * GitHub Pages 문단으로 이동
+    ![portfolio-2](https://firebasestorage.googleapis.com/v0/b/wingtree-cloud.appspot.com/o/images%2Fportfolio_2.jpg?alt=media&token=f4ee6aa5-298d-45c6-9be3-813e22c8e4e8)
 
-  Source를 gh-pages 브랜치로 변경. Source 브랜치의 파일을 이용해서 GitHub Pages에서 알아서 호스팅
+    Source를 gh-pages 브랜치로 변경. 그러면 GitHub Pages가 Source 브랜치의 파일을 이용해서 알아서 호스팅
 
 
 5. <username>.github.io 접속
