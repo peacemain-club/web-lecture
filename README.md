@@ -67,3 +67,7 @@
 * Redux
 * Redux thunk
 * Firebase
+
+## [개인 과제] 나만의 웹 포트폴리오 만들기
+
+[웹 포트폴리오 설정](https://github.com/peacemain-club/web-lecture/blob/master/portfolio/README.md)
