@@ -51,12 +51,15 @@
 * RESTful API
 * HTTP 상태코드
 
-[React1](https://github.com/peacemain-club/web-lecture/blob/master/React/README.md)
+[React](https://github.com/peacemain-club/web-lecture/blob/master/React/README.md)
 
 * React란
 * JSX
 * Component
 * State와 Props
+* React Router
+* Redux
+* React Hook
  
 ##### TODOList 기술스택
 
