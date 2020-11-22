@@ -10,10 +10,10 @@
 
 ## 웹 스터디
 
-[Class 1](https://github.com/peacemain-club/web-lecture/blob/master/01_OT/README.md)
+[01_OT](https://github.com/peacemain-club/web-lecture/blob/master/01_OT/README.md)
 
-* 웹 개발환경 세팅 
-* 도구사용법
+* 웹 개발환경
+* 웹의 동작 방식
 
 [Class 2](https://github.com/peacemain-club/web-lecture/blob/master/02_HTML_CSS/README.md)
 
