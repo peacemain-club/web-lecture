@@ -1,6 +1,7 @@
-# Class 2
+# Class 1
 
-HTML, CSS 기본
+### HTML, CSS
+### Instagrm 헤더와 컨텐츠
 
 ## 참고자료
 [W3School](https://www.w3schools.com/html/default.asp)
@@ -22,13 +23,13 @@ HTML, CSS, JS 읽어서 변환
 
 HyperText Markup Language. -> 프로그래밍 언어가 아니다.
 
-문서가 화면에 표시되는 형식이나 그런 것을 표현하기 위한 언어.
+문서가 화면에 표시되는 형식을 표현하기 위한 언어.
 
 요소들로 이루어져 있다.
 
 DOM으로 변환되는 만큼, 구조도 트리형태. 감싸는 형태. 안쪽이 자식(Child), 바깥이 부모. (React 할 때도 알아야 되는 내용)
 
-#### 태그
+### 태그
 
 ![HTML_tag](https://mdn.mozillademos.org/files/9347/grumpy-cat-small.png)
 
@@ -39,21 +40,20 @@ DOM으로 변환되는 만큼, 구조도 트리형태. 감싸는 형태. 안쪽�
 * 태그들
 
 - div
-- a
 - img
 - p
 - h1 ~ h6
-- br
 - input
-- form
-- strong
 - button
 
 div 하나로만 해도 거의 대부분의 것을 표현이 가능한데, 왜 이렇게 많은 태그들이 있는가? 
 
-=> 웹을 이해하기 쉽게 하기 위해서, 표준.
+* 표준을 맞추기 위해
+* 접근성을 향상하기 위해
+* 사람이 알아보기 쉽게하기 위해
+* 기계가 알아보기 쉽게하기 위해 => SEO 향상
 
-#### 클래스와 id
+### 선택자
 
 둘 다 어떤 요소를 식별하기 위한 것. 클래스는 한 개 문서에서 여러번 사용이 가능하지만 id는 문서 당 한 번만 사용.
 
@@ -61,25 +61,30 @@ div 하나로만 해도 거의 대부분의 것을 표현이 가능한데, 왜 �
 
 id - 하나를 특정
 
-> HTML 파일 만들고 여러가지 태그 확인해보기
-
 ## CSS
 
 스타일 언어. 각 요소들에 스타일을 부여하기 위한 것.
 
-#### 스타일
+### 스타일
 
-* color
 * width / height
 * margin / padding
 * border
-
+* color - hex(ex. #3fa422) / RGB(ex. rgb(124, 122, 24))
 * font size
 * font weight
-* text align
 
-> HTML과 CSS 파일을 연결하고 클래스와 id로 스타일 넣어보기
+* display: flex
+* justify-content
+* align-items
 
-> example.html 따라 만들어보기
+* display: grid
+* gap
 
-> 과제 : 좋아하는 웹페이지 메인화면 마크업 클론코딩
+## 과제
+
+HTML Flex Grid를 마스터하기 위해 게임 클리어해오기
+
+[Flex 개구리 게임](https://flexboxfroggy.com/#ko)
+
+[Grid 당근 게임](https://cssgridgarden.com/#ko)
