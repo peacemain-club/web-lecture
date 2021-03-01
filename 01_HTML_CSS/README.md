@@ -39,12 +39,14 @@ DOM으로 변환되는 만큼, 구조도 트리형태. 감싸는 형태. 안쪽�
 
 * 태그들
 
-- div
-- img
-- p
-- h1 ~ h6
-- input
-- button
+- `div`
+- `img`
+- `p`
+- `h1` ~ `h6`
+- `input`
+- `button`
+- `a`
+- `span` : div 태그 처럼 특별한 기능없이 CSS와 쓰임. display 속성이 기본 `inline`이다.
 
 div 하나로만 해도 거의 대부분의 것을 표현이 가능한데, 왜 이렇게 많은 태그들이 있는가? 
 
@@ -61,25 +63,33 @@ div 하나로만 해도 거의 대부분의 것을 표현이 가능한데, 왜 �
 
 id - 하나를 특정
 
+* `:not()`
+* `:last-child`
+* `::after`
+
 ## CSS
 
 스타일 언어. 각 요소들에 스타일을 부여하기 위한 것.
 
 ### 스타일
 
-* width / height
-* margin / padding
-* border
-* color - hex(ex. #3fa422) / RGB(ex. rgb(124, 122, 24))
-* font size
-* font weight
+* 요소의 크기 : `width` / `height`
+* 요소의 여백 : `margin` / `padding`
+* 요소의 테두리 : `border` / `border-radius`
+* 색 : `color` - hex(ex. `#3fa422`) / RGB(ex. `rgb(124, 122, 24)`)
+* 글자 크기 : `font-size`
+* 글자 굵기 : `font-weight`
 
-* display: flex
-* justify-content
-* align-items
+<bold>CSS Flex</bold>
 
-* display: grid
-* gap
+* `display: flex`
+* `justify-content`
+* `align-items`
+
+<bold>CSS Grid</bold>
+
+* `display: grid`
+* `gap`
 
 ## 과제
 
