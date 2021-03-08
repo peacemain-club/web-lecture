@@ -33,6 +33,7 @@ flex-wrap: wrap || nowrap || wrap-reverse
 
 * `flex-flow`: flex-direction과 flex-wrap을 합쳐 놓은 것
 
+![flex-box](https://user-images.githubusercontent.com/35324795/110273442-ed5b9900-800f-11eb-98b5-567b986cefe6.png)
 
 ### Flex 내부 아이템
 
@@ -47,11 +48,21 @@ justify-content: flex-start || flex-end || space-around || space-between || spac
 align-items: flex-start || flex-end || space-around || space-between || space-evenly || center
 ```
 
+![space-between](https://user-images.githubusercontent.com/35324795/110273445-ee8cc600-800f-11eb-8113-c2f88bc3e592.png)
+
+![space-around](https://user-images.githubusercontent.com/35324795/110273447-ef255c80-800f-11eb-8478-de6a200eeefa.png)
+
+![space-evenly](https://user-images.githubusercontent.com/35324795/110273448-efbdf300-800f-11eb-852c-d0077dc150f9.png)
+
+![center](https://user-images.githubusercontent.com/35324795/110273450-f0568980-800f-11eb-9fee-c1891ef1646f.png)
+
 * `align-content` 등
 
 * `flex`: 내부 아이템의 너비
 
   div A 가 flex: 1, div B가 flex: 2 일 경우 너비는 A : B = 1 : 2
+  
+  ![flex](https://user-images.githubusercontent.com/35324795/110273452-f0568980-800f-11eb-988f-e4232d6d2767.png)
 
 > 앞에보여주는 flex box 만들어보기
 
@@ -82,6 +93,9 @@ display: grid
 
 * fr: 부분의 단위
 
+![grid](https://user-images.githubusercontent.com/35324795/110273454-f0ef2000-800f-11eb-98ae-e1d19d222520.png)
+
+![grid-template](https://user-images.githubusercontent.com/35324795/110273453-f0ef2000-800f-11eb-9eb8-f4af477b0dc1.png)
 
 * `row-gap`: 좌우방향 아이템 사이의 여백
 
