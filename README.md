@@ -4,73 +4,103 @@
 
 ### 바로가기
 
-[커리큘럼]()
-
-[과제]()
+[커리큘럼](https://www.notion.so/peacemain/2-ff6ee4a8f60045518579036ddd725bd3)
 
 ## 웹 스터디
 
-[Class_1](https://github.com/peacemain-club/web-lecture/blob/master/01_OT/README.md)
+[OT](https://github.com/peacemain-club/web-lecture/tree/master/00_OT)
 
 * 웹 개발환경 설치
 * 웹의 동작 방식
 
-[Class 2]()
+[Class 1](https://github.com/peacemain-club/web-lecture/tree/master/01_HTML_CSS)
 
 * HTML, CSS 그리고 인스타그램 클론코딩
 
-[Class 3]()
+[Class 2](https://github.com/peacemain-club/web-lecture/tree/master/02_FLEX_GRID)
 
 * CSS Flex와 Grid
-* Figma과 함께하는 마크업
+* 인스타그램 클론코딩
 
-[Class 4]()
+[Class 3](https://github.com/peacemain-club/web-lecture/tree/master/03_JS)
 
-* Javascript
+* Javascript 기본
+
+[Class 4](https://github.com/peacemain-club/web-lecture/tree/master/04_Markup)
+
+* 노트앱 마크업
+* Figma
 
 [Class 5]()
 
 * Window와 DOM
 * VanillaJS
+* ESlint
+* NPM
+* 노트앱 기능붙이기
 
 [Class 6]()
 
-* NodeJS
-* ExpressJS
-* 웹 서버 만들기
+* 노트앱 기능붙이기
+* Web Storage API
 
 [Class 7]()
 
-* 클라우드
-* 구글 클라우드 플랫폼, Firebase
-* 첫 번째 서비스 배포하기
+* 로컬에서만 작동되는 노트앱
 
 [Class 8]()
 
-* Node JS
-* Express
-* RESTful API
-* HTTP 상태코드
+* 웹서버
+* NodeJS
+* ExpressJS
 
-[React]()
+[Class 9]()
 
-* React란
-* JSX
-* Component
-* State와 Props
+* Firebase 프로젝트 만들기
+* 서버리스 플랫폼
+* Google Cloud Functions로 첫번째 서비스 배포하기
+
+[Class 10]()
+
+* SPA란?
+* React JS의 기본
+* 노트앱 React로 리팩토링 (마크업)
 * React Router
-* Redux
+
+[Class 11]()
+
+* 노트앱 React 리팩토링
+* State와 Props
+
+[Class 12]()
+
 * React Hook
+* 노트앱 React 리팩토링
 
-[Backend]()
+[Class 13]()
 
-* API
-* RESTful API
-* HTTP Request
-* Firebase
-* NoSQL
+* Form
+* 노트앱 React 리팩토링
 
+[Class 14]()
 
-## [개인 과제] 나만의 웹 포트폴리오 만들기
+* REST API
+* NoSQL 데이터베이스
+* 데이터베이스 사용해보기
+* 필요한 API 정의하기
+* ExpressJS로 REST API 개발
 
-[웹 포트폴리오 설정](https://github.com/peacemain-club/web-lecture/blob/master/11_Portfolio/README.md)
+[Class 15]()
+
+* ExpressJS로 REST API 개발
+
+[Class 16]()
+
+* 노트앱과 API 결합하기
+* Firebase로 로그인 및 회원가입 기능 적용하기
+* Google Cloud Functions로 REST API 배포하기
+* 노트앱 Firebase Hosting으로 배포하기
+
+## 나만의 웹 포트폴리오 만들기
+
+[GitHub Pages로 웹 포트폴리오 설정하기](https://github.com/peacemain-club/web-lecture/blob/master/Portfolio/README.md)
