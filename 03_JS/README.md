@@ -707,6 +707,8 @@ React를 할 때 자주 쓰게 됨
 
 자바스크립트를 사용해서 쉬운 코딩테스트 문제 풀어보기
 
+[문자열 내 p와 y의 개수](https://programmers.co.kr/learn/courses/30/lessons/12916?language=javascript)
+
 [가운데 글자 가져오기](https://programmers.co.kr/learn/courses/30/lessons/12903?language=javascript)
 
-[문자열 내 p와 y의 개수](https://programmers.co.kr/learn/courses/30/lessons/12916?language=javascript)
+> ** `Math` 객체 사용하기
