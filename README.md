@@ -31,16 +31,14 @@
 * 노트앱 마크업
 * Figma
 
-[Class 5]()
+[Class 5](https://github.com/peacemain-club/web-lecture/tree/master/05_VanillaJS)
 
 * Window와 DOM
 * VanillaJS
+
+[Class 6](https://github.com/peacemain-club/web-lecture/tree/master/06_NoteApp)
+
 * Web Storage API
-* ESlint
-* NPM
-
-[Class 6]()
-
 * 노트앱 기능붙이기
 * 로컬에서만 작동되는 노트앱 완성
 
@@ -48,7 +46,9 @@
 
 * 웹서버
 * NodeJS
+* NPM
 * ExpressJS
+* ESlint
 
 [Class 8]()
 
