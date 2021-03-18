@@ -44,60 +44,68 @@
 
 [Class 7]()
 
-* 웹서버
 * NodeJS
-* NPM
 * ExpressJS
+* NPM
 * ESlint
 
 [Class 8]()
 
+* NoSQL 데이터베이스
 * Firebase 프로젝트 만들기
-* 서버리스 플랫폼
-* Google Cloud Functions로 첫번째 서비스 배포하기
+* 서버에 데이터베이스 연결하기
+* ejs
 
 [Class 9]()
+
+* Firebase로 로그인 및 회원가입 기능 구현하기
+
+[Class 10]()
+
+* 서버에서 작동되는 노트앱 완성
+* 서버리스 플랫폼
+* Google Cloud Functions로 첫번째 서비스 배포하기
+* Git
+* GitHub
+
+[Class 11]()
 
 * SPA란?
 * React JS의 기본
 * 노트앱 React로 리팩토링 (마크업)
 * React Router
 
-[Class 10]()
+[Class 12]()
 
 * 노트앱 React 리팩토링
 * State와 Props
 
-[Class 11]()
+[Class 13]()
 
 * React Hook
 * 노트앱 React 리팩토링
 
-[Class 12]()
+[Class 14]()
 
 * Form
 * 노트앱 React 리팩토링
 
-[Class 13]()
+[Class 15]()
 
 * REST API
-* NoSQL 데이터베이스
-* 데이터베이스 사용해보기
 * 필요한 API 정의하기
 * ExpressJS로 REST API 개발
 
-[Class 14]()
+[Class 16]()
 
 * ExpressJS로 REST API 개발
 
-[Class 15]()
+[Class 17]()
 
 * 노트앱과 API 결합하기
-* Firebase로 로그인 및 회원가입 기능 적용하기
+* Firebase로 로그인 및 회원가입 기능 구현하기
 * Google Cloud Functions로 REST API 배포하기
 * 노트앱 Firebase Hosting으로 배포하기
-
-
 
 ## 나만의 웹 포트폴리오 만들기
 
