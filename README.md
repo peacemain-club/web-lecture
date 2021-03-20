@@ -58,13 +58,13 @@
 
 [Class 9]()
 
-* Firebase로 로그인 및 회원가입 기능 구현하기
+* 로그인 및 회원가입 기능 구현하기
 
 [Class 10]()
 
 * 서버에서 작동되는 노트앱 완성
 * 서버리스 플랫폼
-* Google Cloud Functions로 첫번째 서비스 배포하기
+* Google App Engine으로 첫번째 서비스 배포하기
 * Git
 * GitHub
 
