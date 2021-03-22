@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>자판기</title>
+  </head>
+  <body>
+    <input id='input' placeholder="여기에 용돈 입력"></input>
+    <script>
+      let current_money = 1000;
+
+      function getMoney() {
+        const money_input = Number(document.getElementById('input').value) || 1000;
+        console.log(`${money_input}원 용돈 받음`);
+        current_money += money_input;
+        document.getElementById('current-money').innerText = `현재 금액 : ${current_money}`;
+      }
+
+      function buy(money) {
+        console.log(`${money}원 구매`);
+        if (current_money - money < 0) {
+          alert('돈이 부족하다');
+          return;
+        }
+
+        current_money -= money;
+        document.getElementById('current-money').innerText = `현재 금액 : ${current_money}`;
+      }
+
+      const products = [
+        {
+          name: '커피',
+          price: 500,
+        },
+        {
+          name: '데자와',
+          price: 1000,
+        },
+        {
+          name: '물',
+          price: 300,
+        },
+      ];
+
+      const body_element = document.getElementsByTagName('body')[0];
+
+      products.forEach((product) => {
+        const button = document.createElement('button');
+        button.innerText = `${product.name} (${product.price}원)`;
+
+        button.addEventListener('click', () => {
+          buy(product.price);
+        });
+
+        body_element.appendChild(button);
+      });
+
+      const money_button = document.createElement('button');
+      money_button.innerText = '용돈받기(1000원)';
+
+      money_button.addEventListener('click', () => {
+        getMoney();
+      });
+
+      body_element.appendChild(money_button);
+
+      const current = document.createElement('div');
+      current.id = 'current-money';
+      current.innerText = `현재 금액 : ${current_money}`;
+
+      body_element.appendChild(current);
+    </script>
+  </body>
+</html>
