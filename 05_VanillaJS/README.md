@@ -99,10 +99,16 @@ window 객체 하위의 객체로 웹페이지를 담당하는 변수나 함수,
   document.getElementById('1'); // <div class="content" id="1">1번 내용</div>
 ```
 
-* `document.getElementByTagName(name)`: 태그 이름(div, p 등)을 가지고 요소를 찾기 위한 API
+* `document.getElementsByClassName(name)`: 클래스를 가지고 요소를 찾기 위한 API
 
 ```js
-  const mains = document.getElementByTagName(main); // HTMLCollections [ <main class="content-wrapper">...</main> ]
+  const mains = document.getElementsByClassName('title'); // HTMLCollections [ <div class="title">제목</div> ]
+``` 
+
+* `document.getElementsByTagName(name)`: 태그 이름(div, p 등)을 가지고 요소를 찾기 위한 API
+
+```js
+  const mains = document.getElementByTagName('main'); // HTMLCollections [ <main class="content-wrapper">...</main> ]
 ```
 
 * `document.createElement(name)`: 태그 이름으로 요소를 하나 만들기 위한 API
