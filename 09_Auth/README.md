@@ -30,5 +30,29 @@ Web Storage에 저장하는 것 먼저 생각해보자. Web Storage는 컴퓨터
 
 #### 세션 방식
 
+서버에서 이 사람이 로그인 중이다 라는 것을 저장해두는 방식
 
 #### 토큰 방식
+
+최초에 서버에 요청을 하면 Token을 발급해준다. 그리고 사용자는 계속 이 토큰을 가지고 이 사람이 로그인 중이다 라는 사실을 아는 방식
+
+### 구현
+
+여기선 세션을 사용하자
+
+#### 세션을 사용하기 위해 필요한 모듈
+
+```bash
+$ npm install --save express-session
+```
+
+#### 세션을 사용하는 방법
+
+```js
+// ...
+app.get('/', (req, res) => {
+  req.session;
+  req.session.account = 'asdf';
+  // 꼭 account로 할 필요는 없다. req.session은 객체로, 안에 어떤 내용이 들어가든 상관없다.
+});
+```
