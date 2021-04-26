@@ -70,14 +70,14 @@
 * Git
 * GitHub
 
-### [Class 11]()
+### [Class 11](https://github.com/peacemain-club/web-lecture/tree/master/11_React) - REACT
 
-* SPA란?
-* React JS의 기본
+* React
+* SPA
 * 노트앱 React로 리팩토링 (마크업)
 * React Router
 
-### [Class 12]()
+### [Class 12](https://github.com/peacemain-club/web-lecture/tree/master/12_State_Props) - STATE PROPS
 
 * 노트앱 React 리팩토링
 * State와 Props
