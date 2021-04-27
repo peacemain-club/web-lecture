@@ -200,6 +200,26 @@ const Page = () => {
 * <strong>검색엔진 최적화가 잘 안된다.</strong>
 * 옛날 브라우저들은 지원 안되는게 많다.
 
+## React 시작하기
+
+React 프로젝트를 사용하려면 세팅을 해줘야 한다. 직접 세팅을 해줄 수도 있지만 시간도 오래걸리고 복잡하니, 이미 만들어져있는 걸로 해보자.
+
+널리 쓰이는 React 프로젝트의 시작방법은 몇가지가 있는데,
+
+* [Create React App](https://create-react-app.dev/docs/getting-started/) : React를 배우거나 SPA 프로젝트를 할 때 사용한다.
+* NextJS : 서버사이드 렌더링이 필요한 프로젝트를 만들 때 주로 사용한다.
+* Gatsby : 블로그를 만들거나 정적 사이트를 만들 때 주로 사용한다.
+
+우리는 리액트를 배우는 단계이니 Create React App을 사용해서 React 프로젝트를 만들어보자.
+
+### 시작하기
+
+```bash
+$ npx create-react-app react-note-app
+```
+
+npm에서 따로 다운로드 받지 않고 설치하는 방법이다. 가장 뒤에는 프로젝트의 이름을 적으면 된다. (지금은 `react-note-app`)
+
 ## React 용어
 
 ### 1. Component
