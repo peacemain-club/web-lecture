@@ -84,12 +84,13 @@
 
 ### [Class 13]()
 
-* React Hook
+* Firebase
+* 클라이언트 사이드 인증
 * 노트앱 React 리팩토링
 
 ### [Class 14]()
 
-* Form
+* React Hook
 * 노트앱 React 리팩토링
 
 ### [Class 15]()
@@ -105,7 +106,6 @@
 ### [Class 17]()
 
 * 노트앱과 API 결합하기
-* Firebase로 로그인 및 회원가입 기능 구현하기
 * Google Cloud Functions로 REST API 배포하기
 * 노트앱 Firebase Hosting으로 배포하기
 
