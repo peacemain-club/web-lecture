@@ -276,61 +276,6 @@ React 모듈에 포함된 컴포넌트 클래스를 상속하여 컴포넌트를
 
 클래스 없이 state를 사용할 수 있는 React의 새로운 기능
 
-## React Router
-
-SPA는 어플리케이션처럼 작동한다. 그래서 화면 이동도 매끄럽게보인다. url 주소가 바뀌지않고도 화면이 바뀌는게 가능하다. 그렇지만 그렇게 하면 어느 페이지에 있는지 알기 힘들고, 링크 공유도 할 수 없다.
-
-그래서 이동 자체는 매끄럽게 가고 주소도 바뀌게 해주는 기능이 있다.
-
-리액트 자체에 내장된 기능은 없어서 써드파티(제 3자) 모듈을 사용해야 하는데, 가장 많이 쓰이는 모듈이 `react-router-dom`
-
-### 기본 설정
-
-```jsx
-// ...
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from 'react-router-dom';
-
-function App() {
-  return (
-    <Router>
-      <Switch>
-        <Route path='/' exact> <!-- 기본 페이지에 접속할 경우 -->
-          <Main /> <!-- 기본 페이지에 접속할 경우에 보여주는 컴포넌트(화면) -->
-        </Route>
-        <Route path='/edit/:id' exact> <!-- edit 페이지에 접속할 경우 -->
-          <Edit /> <!-- edit 페이지에 접속할 경우에 보여주는 컴포넌트(화면) -->
-        </Route>
-        <Route path='/login' exact>
-          <Login />
-        </Route>
-        <Route path='/register' exact>
-          <Register />
-        </Route>
-        <Route>
-          <div>404</div> <!-- 위의 어떤 경우에도 해당하지 않는 경우에 보여주는 컴포넌트 -->
-        </Route>
-      </Switch>
-    </Router>
-  );
-}
-// ...
-```
-
-### Link
-
-```js
-import {Link} from 'react-router-dom';
-
-// ...
-<Link to='/edit'> // edit 화면으로 이동
-  <div className='main__note-content'>노트 컨텐츠</div>
-</Link>
-// ...
-```
 
 ## ** `import` vs `require`
 
