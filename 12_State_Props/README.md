@@ -11,6 +11,10 @@ React에서는 기본적으로 값을 부모에서 자식으로 넘겨줄 수만
 
 ![image](https://user-images.githubusercontent.com/35324795/116401694-7f408f00-a866-11eb-92f0-44135210a96b.png)
 
+우리가 마크업했던 노트앱의 구조는 아래와 같다.
+
+![Group 26](https://user-images.githubusercontent.com/35324795/116494735-71c5ec00-a8dc-11eb-85d0-743b5af7b1cb.png)
+
 ### Props
 
 부모로부터 넘겨받은 값이다. 부모로부터 값을 넘겨받아온다면 그 부모와 자식간에 연결이 생긴다고 볼 수 있다.
@@ -153,7 +157,7 @@ const App = () => {
 만약 `value`의 값을 비교할 때, `state`라는 객체로 이루어져있으면 객체가 바뀌게되면 객체가 가리키는 id가 다르기 때문에 값이 같더라도 변화로 인식해서 변화를 감지할 수 있다. `===`만으로도 교체를 감지할 수 있다.
 
 ```js
-{ data: '1' } === { data: '1' } // false
+{ value: 1 } === { value: 1 } // false
 ```
 
 ### State와 Props의 차이점
