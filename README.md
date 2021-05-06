@@ -82,10 +82,10 @@
 * 노트앱 React 리팩토링
 * State와 Props
 
-### [Class 13]()
+### [Class 13](https://github.com/peacemain-club/web-lecture/tree/master/13_Auth) - AUTH
 
 * Firebase
-* 클라이언트 사이드 인증
+* Firebase 인증
 * 노트앱 React 리팩토링
 
 ### [Class 14]()
