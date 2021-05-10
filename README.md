@@ -88,24 +88,21 @@
 * Firebase 인증
 * 노트앱 React 리팩토링
 
-### [Class 14]()
-
-* React Hook
-* 노트앱 React 리팩토링
-
-### [Class 15]()
+### [Class 14](https://github.com/peacemain-club/web-lecture/tree/master/14_REST_API) - REST API
 
 * REST API
 * 필요한 API 정의하기
 * ExpressJS로 REST API 개발
 
-### [Class 16]()
+### [Class 15](https://github.com/peacemain-club/web-lecture/tree/master/15_Connect) - CONNECT
 
 * ExpressJS로 REST API 개발
+* 클라이언트와 API 서버 연결하기
+* React Hook
 
-### [Class 17]()
+### [Class 16](https://github.com/peacemain-club/web-lecture/tree/master/16_Deploy) - DEPLOY
 
-* 노트앱과 API 결합하기
+* 클라이언트와 API 서버 연결하기
 * Google Cloud Functions로 REST API 배포하기
 * 노트앱 Firebase Hosting으로 배포하기
 
