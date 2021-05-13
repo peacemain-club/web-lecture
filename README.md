@@ -96,9 +96,8 @@
 
 ### [Class 15](https://github.com/peacemain-club/web-lecture/tree/master/15_Connect) - CONNECT
 
-* ExpressJS로 REST API 개발
+* ExpressJS로 REST API 개발 및 테스트하기
 * 클라이언트와 API 서버 연결하기
-* React Hook
 
 ### [Class 16](https://github.com/peacemain-club/web-lecture/tree/master/16_Deploy) - DEPLOY
 
